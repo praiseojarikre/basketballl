@@ -26,7 +26,7 @@ function increaseby3() {
    heading.innerText = number;
 }
 btn3.addEventListener("click", increaseby3);
-
+// Guest
 let varie = 0
  function increaseby4() {
   varie = varie + 1
@@ -46,8 +46,10 @@ let varie = 0
 
 
 function resetbutton() {
+  varie = 0,
+  number = 0
   heading.innerText = 0
   h1.innerText = 0
-  number = 0
+  // number = 0
 }
 newgame.addEventListener('click', resetbutton)
