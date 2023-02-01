@@ -21,6 +21,10 @@ body{
     height: 10%;
 
 }
+.red {
+    justify-content: center;
+    text-align: center;
+}
 .h1class{
     display: flex;
     background-color: #262626;
